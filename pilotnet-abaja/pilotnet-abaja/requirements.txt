@@ -1,0 +1,12 @@
+torch>=2.1
+numpy>=1.24
+opencv-python>=4.8
+onnx>=1.15
+onnxruntime>=1.16
+scipy>=1.10
+matplotlib>=3.7
+pandas>=2.0
+pytest>=7          # optional: selftest works without it
+gdown>=5           # download --what sully / rellis (installed on demand)
+h5py>=3.8          # convert --source comma
+rosbags>=0.9       # convert --source tartandrive (raw .bag files only)
